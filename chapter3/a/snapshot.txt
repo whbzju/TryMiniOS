@@ -1,0 +1,25 @@
+
+Type INSTALL to start the FreeDOS installation
+
+If you need to create a partition on your hard disk for FreeDOS, you
+will need to do that yourself.  Use FDISK to create a partition, and
+use FORMAT to make the partition writable by FreeDOS.  You can run
+both programs from this Install Boot Floppy.
+
+_________________________________________________________________________
+A:\>format b:
+
+
+Reading boot sector...
+Cylinder:      0  Head:   0
+
+Saving UNFORMAT information...
+Cylinder:     77  Head:   1
+
+Creating file system...
+Cylinder:      0  Head:   0
+
+Format operation complete.
+
+
+A:\>
